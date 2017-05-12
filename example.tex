@@ -7,16 +7,21 @@
 
 %%For Cambridge soft-bound version
 
-%123
+%12123
 
-\documentclass[hyperpdf,bindnopdf]{hepthesis}
+\documentclass[hyperpdf, nobind]{hepthesis}
 %% For Cambridge hard-bound version (must be one-sided)
 %\documentclass[hyperpdf,oneside]{hepthesis}
 
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
+
 %% Load special font packages here if you wish
 %\usepackage{lmodern}
-\usepackage{mathpazo}
+%\usepackage{mathpazo}
 %\usepackage{euler}
+\usepackage{iwona}
 
 %% Put package includes etc. into preamble.tex for convenience
 \input{preamble}
@@ -28,8 +33,9 @@
 
 
 %% Define the thesis title and author
-\title{A study of \BToKPi decays with\\ the \LHCb experiment}
-\author{Andrew Gordon Buckley}
+\title{
+\textcyrillic{Механизмы сосуществования стационарных биологических сообществ в пространствах разных размерностей}}
+\author{Антон Сергеевич Савостьянов}
 
 %% Doc-specific PDF metadata
 \makeatletter
