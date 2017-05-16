@@ -1,4 +1,4 @@
-\select@language {english}
+\select@language {russian}
 \contentsline {chapter}{\numberline {1}violation in the system}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Neutral meson mixing}{1}{section.1.1}
 \contentsline {chapter}{\numberline {2}The \LHCb experiment}{3}{chapter.2}
@@ -10,6 +10,6 @@
 \contentsline {chapter}{\numberline {A}Pointless extras}{9}{appendix.A}
 \contentsline {section}{\numberline {A.1}Like, duh}{9}{section.A.1}
 \contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{9}{section.A.2}
-\contentsline {chapter}{Bibliography}{13}{chapter*.7}
-\contentsline {chapter}{List of figures}{15}{chapter*.8}
-\contentsline {chapter}{List of tables}{17}{chapter*.9}
+\contentsline {chapter}{{\cyrillictext \CYRL \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyra }}{13}{chapter*.7}
+\contentsline {chapter}{{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyri \cyrl \cyrl \cyryu \cyrs \cyrt \cyrr \cyra \cyrc \cyri \cyrishrt }}{15}{chapter*.8}
+\contentsline {chapter}{{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrt \cyra \cyrb \cyrl \cyri \cyrc }}{17}{chapter*.9}
