@@ -1,0 +1,5 @@
+\select@language {russian}
+\contentsline {chapter}{\numberline {1}\IeC {\CYRV }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }}{1}{chapter.1}
+\contentsline {chapter}{{\cyrillictext \CYRL \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyra }}{3}{chapter*.2}
+\contentsline {chapter}{{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyri \cyrl \cyrl \cyryu \cyrs \cyrt \cyrr \cyra \cyrc \cyri \cyrishrt }}{5}{chapter*.3}
+\contentsline {chapter}{{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrt \cyra \cyrb \cyrl \cyri \cyrc }}{7}{chapter*.4}

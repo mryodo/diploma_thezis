@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Arch Linux)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: abbrv.bst
+Database file #1: mythesis.bib
+Name 2 in "Lawrence, J. and , and Pou, J. and , and Low, D.K.Y. and , and Toyserkani, E." has a comma at the end for entry steen
+while executing---line 1090 of file abbrv.bst
+Name 4 in "Lawrence, J. and , and Pou, J. and , and Low, D.K.Y. and , and Toyserkani, E." has a comma at the end for entry steen
+while executing---line 1090 of file abbrv.bst
+Name 6 in "Lawrence, J. and , and Pou, J. and , and Low, D.K.Y. and , and Toyserkani, E." has a comma at the end for entry steen
+while executing---line 1090 of file abbrv.bst
+You've used 2 entries,
+            2118 wiz_defined-function locations,
+            512 strings with 4150 characters,
+and the built_in function-call counts, 730 in all, are:
+= -- 65
+> -- 37
+< -- 1
++ -- 13
+- -- 11
+* -- 47
+:= -- 131
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 32
+empty$ -- 58
+format.name$ -- 11
+if$ -- 157
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 6
+pop$ -- 7
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 24
+stack$ -- 0
+substring$ -- 33
+swap$ -- 9
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 7
+width$ -- 3
+write$ -- 26
+(There were 3 error messages)
