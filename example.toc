@@ -1,14 +1,13 @@
 \select@language {russian}
-\contentsline {chapter}{\numberline {1}violation in the system}{1}
-\contentsline {section}{\numberline {1.1}Neutral meson mixing}{1}
-\contentsline {chapter}{\numberline {2}The \LHCb experiment}{3}
-\contentsline {section}{\numberline {2.1}The \LHC }{3}
-\contentsline {section}{\numberline {2.2}The \LHCb experiment}{3}
-\contentsline {section}{\numberline {2.3}The \v {C}erenkov\xspace mechanism}{4}
-\contentsline {section}{\numberline {2.4}Trigger system}{4}
-\contentsline {chapter}{\numberline {A}Pointless extras}{7}
-\contentsline {section}{\numberline {A.1}Like, duh}{7}
-\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{7}
-\contentsline {chapter}{Литература}{11}
-\contentsline {chapter}{Список иллюстраций}{13}
-\contentsline {chapter}{Список таблиц}{15}
+\contentsline {chapter}{\numberline {1}\IeC {\CYRV }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}The \LHCb experiment}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}The \LHC }{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}The \LHCb experiment}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}The \v {C}erenkov\xspace mechanism}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Trigger system}{4}{section.2.4}
+\contentsline {chapter}{\numberline {A}Pointless extras}{7}{appendix.A}
+\contentsline {section}{\numberline {A.1}Like, duh}{7}{section.A.1}
+\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{7}{section.A.2}
+\contentsline {chapter}{{\cyrillictext \CYRL \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyra }}{9}{chapter*.4}
+\contentsline {chapter}{{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyri \cyrl \cyrl \cyryu \cyrs \cyrt \cyrr \cyra \cyrc \cyri \cyrishrt }}{11}{chapter*.5}
+\contentsline {chapter}{{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrt \cyra \cyrb \cyrl \cyri \cyrc }}{13}{chapter*.6}

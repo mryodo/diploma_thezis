@@ -1,0 +1,67 @@
+\chapter{Эвристики численного метода в случаях $ \mathbb{R}^2 $ and $ \mathbb{R}^3 $ }
+
+\section{Ускорение вычислений в двумерном случае}
+
+Далее обратимся к изучению двумерного случая. Наиболее сложным с вычислительной точки зрения вопросом является работа с двумерной сверткой. Для нее верно свойство преобразования Фурье: 
+ \begin{equation*}
+[f*g]_{\mathbb{R}^{2}}=\hat{F}[F[f]\cdot F[g]]. 
+\end{equation*}
+После дискретизации на квадратной сетке размера $ K\times K $ прямое и обратное преобразования выглядят следующим образом:
+\begin{equation*}
+ G_{uv}=\frac{1}{K^{2}}\sum\limits _{n=1}^{K-1}\sum\limits _{m=1}^{K-1}x_{mn}e^{-\frac{2i\pi}{K}(mu+nv)},
+\end{equation*}
+\begin{equation*}
+ x_{nm}=\sum\limits _{n=1}^{K-1}\sum\limits _{m=1}^{K-1}G_{uv}e^{\frac{2i\pi}{K}(mu+nv)}.
+\end{equation*}
+ Эти преобразования могут быть ускорены за счет применения одномерного быстрого преобразования Фурье: 
+\begin{equation*}
+G_{uv}=\frac{1}{K}\sum\limits _{n=1}^{K-1}\left[\frac{1}{K}\sum\limits _{m=1}^{K-1}x_{mn}e^{-\frac{2i\pi nv}{K}}\right]e^{-\frac{2i\pi mu}{K}}, 
+\end{equation*}
+что дает алгоритмическую сложность $ O(K^{3}\log(K)) $, поскольку необходимо вычислить быстрое преобразование Фурье ($ K\log(K) $) в каждом узле сетки. Данную асимптотику можно улучшить, применив преобразование Ханкеля CITE. 
+
+Перейдем в преобразовании Фурье к полярным координатам: 
+\begin{equation*}
+ F[f](\omega_{x},\omega_{y})=\int\limits _{-\infty}^{+\infty}\int\limits _{-\infty}^{+\infty}f(x,y)e^{-i(\omega_{x}x+\omega_{y}y)}dxdxy=\int\limits _{0}^{+\infty}\int\limits _{-\pi}^{\pi}f(r,\theta)e^{-ir\rho\cos(\psi-\theta)}rdrd\theta.
+\end{equation*}
+Пользуясь тем, что исследуемые функции радиально-симметричны, получаем соотношение 
+\begin{equation*}
+F[f](\rho,\psi)=\int\limits _{0}^{+\infty}rf(r)dr\int\limits _{-\pi}^{\pi}e^{-ir\rho\cos(\psi-\theta)}d\theta=2\pi\int\limits _{0}^{+\infty}rf(r)J_{0}(r\rho)dr, 
+\end{equation*}
+которое известно как \textbf{{преобразование Ханкеля 0-го порядка}}, где $ J_{0}(x)=\frac{1}{2\pi}\int\limits _{-\pi}^{\pi}e^{-ix\cos\tau}d\tau $ --- \textit{функция Бесселя нулевого порядка}. Если же теперь дополнительно сделать экспоненциальную замену переменных $ r=r_{0}e^{x} $, $ \rho=\rho_{0}e^{y} $, 
+\begin{equation*}
+H_{0}[f](\rho)=\int_{0}^{+\infty}rf(r)J_{o}(\rho r)dr=\frac{1}{e^{y/4}}[(f(e^{x/4})\cdot e^{x/4})*J_{0}(e^{x/4})](y)|_{x=\ln r,\;y=\ln\rho}.
+\end{equation*}
+то вместо преобразования Фурье получим свертку двух функций, алгоритмическая сложность которой $ O(K\cdot\log(K)) $, т.е. было произведено ускорение в $ K^{2} $ раз.
+
+\section{Ускорение вычислений в трехмерном случае}
+
+Аналогичным образом проведем рассуждение в случае трехмерной свертки. Для нее верно свойство преобразования Фурье: 
+\begin{equation*}
+[f*g]_{\mathbb{R}^{2}}=\hat{F}[F[f]\cdot F[g]].
+\end{equation*}
+Пользуясь соображениями выше, легко понять, что ее вычислительная сложность есть не что иное, как быстрое преобразование Фурье, запущенное в каждой точке пространства, т.е. $ O(K^{3}\cdot K\log K)=O(K\cdot\log K) $. Улучшим вычислительную сложность нашего метода за счет перехода в класс радиально симметричных функций, как и ранее. Для этого сделаем дополнительное построение: вспомним задачу Лапласса с граничным условием на шаре:
+\begin{equation*}
+\begin{cases}
+	\Delta u=0\\
+	0<\rho<a,\;0<\theta<\pi,\;0<\phi<2\pi\\
+	u(a,\theta,\phi)=f_{0}(\theta,\phi)\equiv0
+\end{cases}
+\end{equation*}
+Строго говоря, мы необязаны привязывать наши рассуждения к конкретному виду начальных условий, поэтому для удобства положим, что задача дана с условиями Дирихле, как приведено выше. Полагая по методу Фурье $ u(\rho,\theta,\phi)=\sum\limits _{n=0}^{+\infty}\sum\limits _{k=-n}^{n}R_{n}^{k}(\rho)Y_{n}^{k}(\theta,\phi) $, получаем: \begin{equation*}
+Y_{n}^{k}(\theta,\phi)=\sqrt{\frac{(2n+1)(n-k)!}{4\pi(n+k)!}}P_{n}^{k}(\cos\phi)e^{ik\theta},
+\end{equation*}
+где $ P_{n}^{k}(x) $ --- \textit{присоединенные полиномы Лежандра}, известные своей ортогональность в $ L_{2} $: \begin{equation*}
+P_{n}^{k}(x)=\frac{(-1)^{n}}{n!2^{n}}(1-x^{2})^{k/2}\frac{d^{n+k}}{dx^{n+k}}[(1-x^{2})^{n}]
+\end{equation*}
+Воспользуемся разложением ядра Фурье через $ Y_{n}^{k} $: \begin{equation*}
+e^{i(\vec{w},\vec{r})}=4\pi\sum\limits _{n=0}^{+\infty}\sum\limits _{k=-n}^{n}(-1)^{n}\sqrt{\frac{\pi}{2r\rho}}J_{n+1/2}(\rho r)\overline{Y_{n}^{k}(\phi,\psi)}Y_{n}^{k}(\theta,\eta)
+\end{equation*}
+Подставляя полученное выражение в теорему о свертке:
+\begin{multline*}
+[f***g]=F^{-1}[ F[f]\cdot F[g] ]= \int\limits_{\mathbb{R}^3} \left[ \left( \int\limits_{\mathbb{R}^3} f(r) e^{i (\vec{w}, \vec{r})} r^2 \sin \phi dr d\phi \right) \cdot \right. \\
+\left. \cdot \left( \int\limits_{\mathbb{R}^3} g(r) e^{i (\vec{w}, \vec{r})} r^2 \sin \phi dr d\phi \right) \right] e^{-i (\vec{w}, \vec{r})} \rho^2 \sin \theta d\rho d\theta d\eta
+\end{multline*}
+и меняя порядок суммирования с учетом ортогональности полиномов Лежандра, получаем: 
+\begin{equation*}
+[f***g](\vec{r})=4\pi[(r\cdot f)*g](r)
+\end{equation*}

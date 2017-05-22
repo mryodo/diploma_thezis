@@ -3,51 +3,57 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: abbrv.bst
 Database file #1: mythesis.bib
+I was expecting a `,' or a `}'---line 64 of file mythesis.bib
+ :  
+ :  author = {Brenner, Katie AND Arnold, Frances H.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty year in benard
 Name 2 in "Lawrence, J. and , and Pou, J. and , and Low, D.K.Y. and , and Toyserkani, E." has a comma at the end for entry steen
 while executing---line 1090 of file abbrv.bst
 Name 4 in "Lawrence, J. and , and Pou, J. and , and Low, D.K.Y. and , and Toyserkani, E." has a comma at the end for entry steen
 while executing---line 1090 of file abbrv.bst
 Name 6 in "Lawrence, J. and , and Pou, J. and , and Low, D.K.Y. and , and Toyserkani, E." has a comma at the end for entry steen
 while executing---line 1090 of file abbrv.bst
-You've used 2 entries,
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            512 strings with 4150 characters,
-and the built_in function-call counts, 730 in all, are:
-= -- 65
-> -- 37
-< -- 1
-+ -- 13
-- -- 11
-* -- 47
-:= -- 131
-add.period$ -- 7
-call.type$ -- 2
-change.case$ -- 8
+            530 strings with 4556 characters,
+and the built_in function-call counts, 1451 in all, are:
+= -- 136
+> -- 58
+< -- 2
++ -- 22
+- -- 17
+* -- 83
+:= -- 258
+add.period$ -- 16
+call.type$ -- 5
+change.case$ -- 20
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 32
-empty$ -- 58
-format.name$ -- 11
-if$ -- 157
+cite$ -- 6
+duplicate$ -- 69
+empty$ -- 119
+format.name$ -- 17
+if$ -- 309
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 6
-pop$ -- 7
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 28
+num.names$ -- 12
+pop$ -- 18
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 15
 quote$ -- 0
-skip$ -- 24
+skip$ -- 50
 stack$ -- 0
-substring$ -- 33
-swap$ -- 9
-text.length$ -- 1
+substring$ -- 61
+swap$ -- 17
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
-warning$ -- 0
-while$ -- 7
-width$ -- 3
-write$ -- 26
-(There were 3 error messages)
+type$ -- 20
+warning$ -- 1
+while$ -- 15
+width$ -- 6
+write$ -- 58
+(There were 4 error messages)

@@ -2,8 +2,18 @@
 
 \bibitem{einstein}
 A.~{Einstein}.
-\newblock {Strahlungs-Emission und {\shy}Absorption nach der Quantentheorie}.
+\newblock {Strahlungs-Emission und bsorption nach der Quantentheorie}.
 \newblock {\em Deutsche Physikalische Gesellschaft}, 18, 1916.
+
+\bibitem{benard}
+A.~V. Getling.
+\newblock Rayleigh-bénard convection: Structures and dynamics.
+\newblock {\em Advanced Series in Nonlinear Dynamics}, 11.
+
+\bibitem{leis}
+R.~E. Liesegang.
+\newblock Naturwiss.
+\newblock {\em Wochenschr}, 11:353, 1896.
 
 \bibitem{steen}
 W.~Steen.
@@ -13,5 +23,12 @@ W.~Steen.
   {\em Advances in Laser Materials Processing}, Woodhead Publishing Series in
   Welding and Other Joining Technologies, pages 3 -- 19. Woodhead Publishing,
   2010.
+
+\bibitem{belousov}
+Б.~П. Белоусов.
+\newblock Периодически действующая реакция и
+  её механизм.
+\newblock {\em Автоволновые процессы в системах с
+  диффузией}, page~76, 1951.
 
 \end{thebibliography}
