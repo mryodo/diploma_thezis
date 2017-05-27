@@ -1,28 +1,23 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{einstein}
 A.~{Einstein}.
 \newblock {Strahlungs-Emission und bsorption nach der Quantentheorie}.
 \newblock {\em Deutsche Physikalische Gesellschaft}, 18, 1916.
 
-\bibitem{benard}
-A.~V. Getling.
-\newblock Rayleigh-bénard convection: Structures and dynamics.
-\newblock {\em Advanced Series in Nonlinear Dynamics}, 11.
+\bibitem{steen}
+W.M. Steen.
+\newblock ‘light’ industry: an introduction to laser processing and its
+  industrial applications.
+\newblock In J.~Lawrence, , J.~Pou, , D.K.Y. Low, , and E.~Toyserkani, editors,
+  {\em Advances in Laser Materials Processing}, Woodhead Publishing Series in
+  Welding and Other Joining Technologies, pages 3 -- 19. Woodhead Publishing,
+  2010.
 
 \bibitem{leis}
 R.~E. Liesegang.
 \newblock Naturwiss.
 \newblock {\em Wochenschr}, 11:353, 1896.
-
-\bibitem{steen}
-W.~Steen.
-\newblock ‘light’ industry: an introduction to laser processing and its
-  industrial applications.
-\newblock In J.~Lawrence, , J.~Pou, , D.~Low, , and E.~Toyserkani, editors,
-  {\em Advances in Laser Materials Processing}, Woodhead Publishing Series in
-  Welding and Other Joining Technologies, pages 3 -- 19. Woodhead Publishing,
-  2010.
 
 \bibitem{belousov}
 Б.~П. Белоусов.
@@ -30,5 +25,225 @@ W.~Steen.
   её механизм.
 \newblock {\em Автоволновые процессы в системах с
   диффузией}, page~76, 1951.
+
+\bibitem{benard}
+A.~V. Getling.
+\newblock Rayleigh-bénard convection: Structures and dynamics.
+\newblock {\em Advanced Series in Nonlinear Dynamics}, 11.
+
+\bibitem{ecoli}
+Katie Brenner and Frances~H. Arnold.
+\newblock Self-organization, layered structure, and aggregation enhance
+  persistence of a synthetic biofilm consortium.
+\newblock {\em PLOS ONE}, 6(2):1--7, 02 2011.
+
+\bibitem{disc}
+Thomas Höfer, Jonathan~A. Sherratt, and Philip~K. Maini.
+\newblock Dictyostelium discoideum: Cellular self-organization in an excitable
+  biological medium.
+\newblock {\em Proceedings: Biological Sciences}, 259(1356):249--257, 1995.
+
+\bibitem{HUPPERT2013999}
+A.~Huppert and G.~Katriel.
+\newblock Mathematical modelling and prediction in infectious disease
+  epidemiology.
+\newblock {\em Clinical Microbiology and Infection}, 19(11):999 -- 1005, 2013.
+
+\bibitem{Rabinovich:2010}
+M.~I. Rabinovich and M.~K. Muezzinoglu.
+\newblock Nonlinear dynamics of the brain: emotion and cognition.
+\newblock {\em Usp. Fiz. Nauk}, 180(4):371--387, 2010.
+
+\bibitem{ferh}
+P.~F. Verhulst.
+\newblock Notice sur la loi que la population poursuit dans son accroissement.
+\newblock {\em Correspondance mathématique et physique}, pages 113 -- 121,
+  1838.
+
+\bibitem{Lotka1925}
+Alfred~James Lotka.
+\newblock {\em {Elements of physical biology}}.
+\newblock Williams \& Wilkins Company, Baltimore, 1925.
+
+\bibitem{Huston}
+Michael Huston, Donald DeAngelis, and Wilfred Post.
+\newblock New computer models unify ecological theory.
+\newblock {\em BioScience}, 38(10):682--691, 1988.
+
+\bibitem{JUDSON19949}
+Olivia~P. Judson.
+\newblock The rise of the individual-based model in ecology.
+\newblock {\em Trends in Ecology \& Evolution}, 9(1):9 -- 14, 1994.
+
+\bibitem{lom}
+Adam Łomnicki.
+\newblock Individual-based models and the individual-based approach to
+  population ecology.
+\newblock {\em Ecological Modelling}, 115(2):191 -- 198, 1999.
+
+\bibitem{levin74}
+Simon~A. Levin.
+\newblock Dispersion and population interactions.
+\newblock {\em The American Naturalist}, 108(960):207--228, 1974.
+
+\bibitem{levin76}
+Simon~A. Levin.
+\newblock Population dynamic models in heterogeneous environments.
+\newblock {\em Annual Review of Ecology and Systematics}, 7:287--310, 1976.
+
+\bibitem{hols}
+Kent~E. Holsinger and Jonathan Roughgarden.
+\newblock A model for the dynamics of an annual plant population.
+\newblock {\em Theoretical Population Biology}, 28(3):288 -- 313, 1985.
+
+\bibitem{pacsil}
+Stephen~W. Pacala.
+\newblock Neighborhood models of plant population dynamics. 4. single-species
+  and multispecies models of annuals with dormant seeds.
+\newblock {\em The American Naturalist}, 128(6):859--878, 1986.
+
+\bibitem{wein}
+Jacob Weiner.
+\newblock A neighborhood model of annual-plant interference.
+\newblock {\em Ecology}, 63(5):1237--1241, 1982.
+
+\bibitem{weinc}
+Jacob Weiner and Paul~T. Conte.
+\newblock Dispersal and neighborhood effects in an annual plant competition
+  model.
+\newblock {\em Ecological Modelling}, 13(3):131 -- 147, 1981.
+
+\bibitem{HOGEWEG}
+P.~Hogeweg.
+\newblock Cellular automata as a paradigm for ecological modeling.
+\newblock {\em Applied Mathematics and Computation}, 27(1):81 -- 100, 1988.
+
+\bibitem{velazquez}
+Jorge Velázquez, Juan~P. Garrahan, and Markus~P. Eichhorn.
+\newblock Spatial complementarity and the coexistence of species.
+\newblock {\em PLOS ONE}, 9(12):1--20, 12 2014.
+
+\bibitem{Plank2015}
+Michael~J. Plank and Richard Law.
+\newblock Spatial point processes and moment dynamics in the life sciences: A
+  parsimonious derivation and some extensions.
+\newblock {\em Bulletin of Mathematical Biology}, 77(4):586--613, 2015.
+
+\bibitem{DURRETT1994363}
+R.~Durrett and S.~Levin.
+\newblock The importance of being discrete (and spatial).
+\newblock {\em Theoretical Population Biology}, 46(3):363 -- 394, 1994.
+
+\bibitem{YOUNG}
+Roberts A. J. \& Stuhne~G. Young, W.~R.
+\newblock {\em Nature}, (412):328 -- 331, 2001.
+
+\bibitem{FILIPE2001603}
+J.A.N. Filipe and G.J. Gibson.
+\newblock Comparing approximations to spatio-temporal models for epidemics with
+  local spread.
+\newblock {\em Bulletin of Mathematical Biology}, 63(4):603 -- 624, 2001.
+
+\bibitem{Etienne2004105}
+Rampal~S. Etienne, Cajo~J.F. ter Braak, and Claire~C. Vos.
+\newblock 5 - application of stochastic patch occupancy models to real
+  metapopulations.
+\newblock In Ilkka Hanski and Oscar~E. Gaggiotti, editors, {\em Ecology,
+  Genetics and Evolution of Metapopulations}, pages 105 -- 132. Academic Press,
+  Burlington, 2004.
+
+\bibitem{metz}
+J.~A. Metz and M.~Gyllenberg.
+\newblock How should we define fitness in structured metapopulation models?
+  including an application to the calculation of evolutionarily stable
+  dispersal strategies.
+\newblock {\em Proc Biol Sci}, (268):499 -- 508, 2001.
+
+\bibitem{ROUS}
+F.~Rousset.
+\newblock {\em Genetic Structure and Selection in Subdivided Populations
+  (MPB-40)}.
+\newblock Princeton University Press, Princeton, 2013.
+
+\bibitem{CADET}
+Claire Cadet, Régis Ferrière, {Johan A J} Metz, and Minus {Van Baalen}.
+\newblock The evolution of dispersal under demographic stochasticity.
+\newblock {\em American Naturalist}, 162(4):427--441, 10 2003.
+
+\bibitem{RAND}
+D.~A. Rand and H.~B. Wilson.
+\newblock Using spatio-temporal chaos and intermediate-scale determinism to
+  quantify spatially extended ecosystems.
+\newblock {\em Proceedings: Biological Sciences}, 259(1355):111--117, 1995.
+
+\bibitem{WEINS1993}
+John~A. Wiens, Nils~Chr. Stenseth, Beatrice~Van Horne, and Rolf~Anker Ims.
+\newblock Ecological mechanisms and landscape ecology.
+\newblock {\em Oikos}, 66(3):369--380, 1993.
+
+\bibitem{Hastings1994}
+Alan Hastings.
+\newblock {\em Conservation and Spatial Structure: Theoretical Approaches},
+  pages 494--503.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 1994.
+
+\bibitem{Levin334}
+Simon~A. Levin, Bryan Grenfell, Alan Hastings, and Alan~S. Perelson.
+\newblock Mathematical and computational challenges in population biology and
+  ecosystems science.
+\newblock {\em Science}, 275(5298):334--343, 1997.
+
+\bibitem{law_dieckmann_2000}
+Richard Law and Ulf Dieckmann.
+\newblock {\em Moment Approximations of Individual-based Models}, page
+  252–270.
+\newblock Cambridge Studies in Adaptive Dynamics. Cambridge University Press,
+  2000.
+
+\bibitem{BOLKER1997179}
+Benjamin Bolker and Stephen~W Pacala.
+\newblock Using moment equations to understand stochastically driven spatial
+  pattern formation in ecological systems.
+\newblock {\em Theoretical Population Biology}, 52(3):179 -- 197, 1997.
+
+\bibitem{MATS}
+Ogita N. Sasaki~A. Matsuda, H. and Sato K.
+\newblock Statistical mechanics of population.
+\newblock {\em Progress in Theoretical Physics}, 88:1035 -- 1049, 1992.
+
+\bibitem{RAND1999}
+D.~A. Rand.
+\newblock {\em Correlation Equations and Pair Approximations for Spatial
+  Ecologies}.
+\newblock Blackwell Publishing Ltd., 1999.
+
+\bibitem{baalen_2000}
+Minus~van Baalen.
+\newblock {\em Pair Approximations for Different Spatial Geometries}, page
+  359–387.
+\newblock Cambridge Studies in Adaptive Dynamics. Cambridge University Press,
+  2000.
+
+\bibitem{Filipe200315}
+J.A.N. Filipe and M.M. Maule.
+\newblock Analytical methods for predicting the behaviour of population models
+  with general spatial interactions.
+\newblock {\em Mathematical Biosciences}, 183(1):15 -- 35, 2003.
+
+\bibitem{law_2003}
+Richard Law, David~J. Murrell, and Ulf Dieckmann.
+\newblock Population growth in space and time: Spatial logistic equations.
+\newblock {\em Ecology}, 84(1):252--262, 2003.
+
+\bibitem{MURRELL}
+David~J. Murrell and Richard Law.
+\newblock Heteromyopia and the spatial coexistence of similar competitors.
+\newblock {\em Ecology Letters}, 6(1):48--59, 2003.
+
+\bibitem{Pawar2012a}
+Samraat Pawar and Anthony~I. Dell.
+\newblock {Dimensionality of consumer search space drives trophic interaction
+  strengths}.
+\newblock {\em Nature}, 486(7404):485--489, May 2012.
 
 \end{thebibliography}

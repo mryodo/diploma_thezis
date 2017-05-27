@@ -1,59 +1,77 @@
 This is BibTeX, Version 0.99d (TeX Live 2016/Arch Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-The style file: abbrv.bst
+The style file: unsrt.bst
 Database file #1: mythesis.bib
-I was expecting a `,' or a `}'---line 64 of file mythesis.bib
+I was expecting a `,' or a `}'---line 462 of file mythesis.bib
  :  
- :  author = {Brenner, Katie AND Arnold, Frances H.},
+ :  doi = {10.1002/9781444311501.ch4}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--empty year in benard
 Name 2 in "Lawrence, J. and , and Pou, J. and , and Low, D.K.Y. and , and Toyserkani, E." has a comma at the end for entry steen
-while executing---line 1090 of file abbrv.bst
+while executing---line 944 of file unsrt.bst
 Name 4 in "Lawrence, J. and , and Pou, J. and , and Low, D.K.Y. and , and Toyserkani, E." has a comma at the end for entry steen
-while executing---line 1090 of file abbrv.bst
+while executing---line 944 of file unsrt.bst
 Name 6 in "Lawrence, J. and , and Pou, J. and , and Low, D.K.Y. and , and Toyserkani, E." has a comma at the end for entry steen
-while executing---line 1090 of file abbrv.bst
-You've used 5 entries,
-            2118 wiz_defined-function locations,
-            530 strings with 4556 characters,
-and the built_in function-call counts, 1451 in all, are:
-= -- 136
-> -- 58
-< -- 2
-+ -- 22
-- -- 17
-* -- 83
-:= -- 258
-add.period$ -- 16
-call.type$ -- 5
-change.case$ -- 20
+while executing---line 944 of file unsrt.bst
+Warning--empty year in benard
+Too many commas in name 1 of "Young, W. R., Roberts, A. J., \& Stuhne, G." for entry YOUNG
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Young, W. R., Roberts, A. J., \& Stuhne, G." for entry YOUNG
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Young, W. R., Roberts, A. J., \& Stuhne, G." for entry YOUNG
+while executing---line 944 of file unsrt.bst
+Warning--empty title in YOUNG
+Warning--there's a number but no volume in YOUNG
+Warning--there's a number but no volume in metz
+Warning--can't use both author and editor fields in Hastings1994
+Warning--can't use both author and editor fields in law_dieckmann_2000
+Too many commas in name 1 of "Matsuda, H., Ogita, N., Sasaki A. and Sato K." for entry MATS
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Matsuda, H., Ogita, N., Sasaki A. and Sato K." for entry MATS
+while executing---line 944 of file unsrt.bst
+Warning--can't use both author and editor fields in RAND1999
+Warning--empty chapter and pages in RAND1999
+Warning--can't use both author and editor fields in baalen_2000
+You've used 43 entries,
+            1791 wiz_defined-function locations,
+            762 strings with 10601 characters,
+and the built_in function-call counts, 10526 in all, are:
+= -- 988
+> -- 332
+< -- 7
++ -- 130
+- -- 87
+* -- 737
+:= -- 1589
+add.period$ -- 132
+call.type$ -- 43
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 69
-empty$ -- 119
-format.name$ -- 17
-if$ -- 309
+cite$ -- 52
+duplicate$ -- 484
+empty$ -- 1071
+format.name$ -- 87
+if$ -- 2426
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 5
-newline$ -- 28
-num.names$ -- 12
-pop$ -- 18
+int.to.str$ -- 43
+missing$ -- 49
+newline$ -- 217
+num.names$ -- 47
+pop$ -- 87
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 0
 quote$ -- 0
-skip$ -- 50
+skip$ -- 247
 stack$ -- 0
-substring$ -- 61
-swap$ -- 17
-text.length$ -- 2
+substring$ -- 874
+swap$ -- 128
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
-warning$ -- 1
-while$ -- 15
-width$ -- 6
-write$ -- 58
-(There were 4 error messages)
+type$ -- 0
+warning$ -- 9
+while$ -- 93
+width$ -- 45
+write$ -- 478
+(There were 9 error messages)

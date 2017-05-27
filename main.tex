@@ -1,4 +1,4 @@
-\documentclass[hyperpdf, nobind]{hepthesis}
+\documentclass[hyperpdf, nobind, oneside]{hepthesis}
 %% For Cambridge hard-bound version (must be one-sided)
 %\documentclass[hyperpdf,oneside]{hepthesis}
 
@@ -13,6 +13,12 @@
 \usepackage{caption}
 \usepackage{subcaption}
 
+
+%\usepackage[sorting=none]{biblatex}
+
+
+\usepackage{titlesec}
+\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter.}{20pt}{\huge\bfseries}
 %% Load special font packages here if you wish
 %\usepackage{lmodern}
 %\usepackage{mathpazo}
@@ -20,7 +26,7 @@
 \usepackage{iwona}
 
 \allowdisplaybreaks
-
+%\setacknowledgementstitle{Благодарности}
 
 \title{
 \textcyrillic{Механизмы сосуществования стационарных биологических сообществ в пространствах разных размерностей}}
