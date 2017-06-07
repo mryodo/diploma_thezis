@@ -1,249 +1,434 @@
 \begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
 \bibitem{einstein}
-A.~{Einstein}.
-\newblock {Strahlungs-Emission und bsorption nach der Quantentheorie}.
-\newblock {\em Deutsche Physikalische Gesellschaft}, 18, 1916.
+\selectlanguageifdefined{russian}
+{Einstein}~A. {Strahlungs-Emission und bsorption nach der Quantentheorie}~//
+  Deutsche Physikalische Gesellschaft.
+\newblock 1916.
+\newblock Т.~18.{}
 
 \bibitem{steen}
-W.M. Steen.
-\newblock ‘light’ industry: an introduction to laser processing and its
-  industrial applications.
-\newblock In J.~Lawrence, , J.~Pou, , D.K.Y. Low, , and E.~Toyserkani, editors,
-  {\em Advances in Laser Materials Processing}, Woodhead Publishing Series in
-  Welding and Other Joining Technologies, pages 3 -- 19. Woodhead Publishing,
-  2010.
+\selectlanguageifdefined{russian}
+Steen~W.M. ‘Light’ industry: an introduction to laser processing and its
+  industrial applications~// Advances in Laser Materials Processing~/ {под
+  ред. }J.~Lawrence, , J.~Pou {[и~др.]}.
+\newblock Woodhead Publishing Series in Welding and Other Joining Technologies.
+\newblock Woodhead Publishing, 2010.
+\newblock {С.}~3 -- 19. URL:
+  http://www.sciencedirect.com/science/article/pii/B9781845694746500007.{}
 
 \bibitem{leis}
-R.~E. Liesegang.
-\newblock Naturwiss.
-\newblock {\em Wochenschr}, 11:353, 1896.
+\selectlanguageifdefined{russian}
+Liesegang~R.~E. Naturwiss~// Wochenschr.
+\newblock 1896.
+\newblock Т.~11.
+\newblock {С.}~353.{}
 
 \bibitem{belousov}
-Б.~П. Белоусов.
-\newblock Периодически действующая реакция и
-  её механизм.
-\newblock {\em Автоволновые процессы в системах с
-  диффузией}, page~76, 1951.
+\selectlanguageifdefined{russian}
+Белоусов~Б.~П. Периодически действующая
+  реакция и её механизм~// Автоволновые
+  процессы в системах с диффузией.
+\newblock 1951.
+\newblock {С.}~76.{}
 
 \bibitem{benard}
-A.~V. Getling.
-\newblock Rayleigh-bénard convection: Structures and dynamics.
-\newblock {\em Advanced Series in Nonlinear Dynamics}, 11.
+\selectlanguageifdefined{russian}
+Getling~A.~V. Rayleigh-Bénard Convection: Structures and Dynamics~// Advanced
+  Series in Nonlinear Dynamics.
+\newblock Т.~11.{}
 
 \bibitem{ecoli}
-Katie Brenner and Frances~H. Arnold.
-\newblock Self-organization, layered structure, and aggregation enhance
-  persistence of a synthetic biofilm consortium.
-\newblock {\em PLOS ONE}, 6(2):1--7, 02 2011.
+\selectlanguageifdefined{russian}
+Brenner~Katie, Arnold~Frances~H. Self-Organization, Layered Structure, and
+  Aggregation Enhance Persistence of a Synthetic Biofilm Consortium~// PLOS
+  ONE.
+\newblock 2011.  02.
+\newblock Т.~6, {№}~2.
+\newblock {С.}~1--7. URL:  https://doi.org/10.1371/journal.pone.0016791.{}
 
 \bibitem{disc}
-Thomas Höfer, Jonathan~A. Sherratt, and Philip~K. Maini.
-\newblock Dictyostelium discoideum: Cellular self-organization in an excitable
-  biological medium.
-\newblock {\em Proceedings: Biological Sciences}, 259(1356):249--257, 1995.
+\selectlanguageifdefined{russian}
+Höfer~Thomas, Sherratt~Jonathan~A., Maini~Philip~K. Dictyostelium discoideum:
+  Cellular Self-Organization in an Excitable Biological Medium~// Proceedings:
+  Biological Sciences.
+\newblock 1995.
+\newblock Т. 259, {№}~1356.
+\newblock {С.}~249--257. URL:  http://www.jstor.org/stable/50003.{}
 
 \bibitem{HUPPERT2013999}
-A.~Huppert and G.~Katriel.
-\newblock Mathematical modelling and prediction in infectious disease
-  epidemiology.
-\newblock {\em Clinical Microbiology and Infection}, 19(11):999 -- 1005, 2013.
+\selectlanguageifdefined{russian}
+Huppert~A., Katriel~G. Mathematical modelling and prediction in infectious
+  disease epidemiology~// Clinical Microbiology and Infection.
+\newblock 2013.
+\newblock Т.~19, {№}~11.
+\newblock {С.}~999 -- 1005. URL:
+  http://www.sciencedirect.com/science/article/pii/S1198743X14630019.{}
 
 \bibitem{Rabinovich:2010}
-M.~I. Rabinovich and M.~K. Muezzinoglu.
-\newblock Nonlinear dynamics of the brain: emotion and cognition.
-\newblock {\em Usp. Fiz. Nauk}, 180(4):371--387, 2010.
+\selectlanguageifdefined{russian}
+Rabinovich~M.~I., Muezzinoglu~M.~K. Nonlinear dynamics of the brain: emotion
+  and cognition~// Usp. Fiz. Nauk.
+\newblock 2010.
+\newblock Т. 180, {№}~4.
+\newblock {С.}~371--387. URL:  http://ufn.ru/ru/articles/2010/4/b/.{}
 
 \bibitem{ferh}
-P.~F. Verhulst.
-\newblock Notice sur la loi que la population poursuit dans son accroissement.
-\newblock {\em Correspondance mathématique et physique}, pages 113 -- 121,
-  1838.
+\selectlanguageifdefined{russian}
+Verhulst~P.~F. Notice sur la loi que la population poursuit dans son
+  accroissement~// Correspondance mathématique et physique.
+\newblock 1838.
+\newblock {С.}~113 -- 121.{}
 
 \bibitem{Lotka1925}
-Alfred~James Lotka.
-\newblock {\em {Elements of physical biology}}.
-\newblock Williams \& Wilkins Company, Baltimore, 1925.
+\selectlanguageifdefined{russian}
+Lotka~Alfred~James. {Elements of physical biology}.
+\newblock Baltimore: Williams \& Wilkins Company, 1925.
+\newblock {С.}~460. URL:  http://library.wur.nl/WebQuery/clc/529141.{}
 
 \bibitem{Huston}
-Michael Huston, Donald DeAngelis, and Wilfred Post.
-\newblock New computer models unify ecological theory.
-\newblock {\em BioScience}, 38(10):682--691, 1988.
+\selectlanguageifdefined{russian}
+Huston~Michael, DeAngelis~Donald, Post~Wilfred. New Computer Models Unify
+  Ecological Theory~// BioScience.
+\newblock 1988.
+\newblock Т.~38, {№}~10.
+\newblock {С.}~682--691. URL:  http://www.jstor.org/stable/1310870.{}
 
 \bibitem{JUDSON19949}
-Olivia~P. Judson.
-\newblock The rise of the individual-based model in ecology.
-\newblock {\em Trends in Ecology \& Evolution}, 9(1):9 -- 14, 1994.
+\selectlanguageifdefined{russian}
+Judson~Olivia~P. The rise of the individual-based model in ecology~// Trends in
+  Ecology \& Evolution.
+\newblock 1994.
+\newblock Т.~9, {№}~1.
+\newblock {С.}~9 -- 14. URL:
+  http://www.sciencedirect.com/science/article/pii/0169534794902259.{}
 
 \bibitem{lom}
-Adam Łomnicki.
-\newblock Individual-based models and the individual-based approach to
-  population ecology.
-\newblock {\em Ecological Modelling}, 115(2):191 -- 198, 1999.
+\selectlanguageifdefined{russian}
+Łomnicki~Adam. Individual-based models and the individual-based approach to
+  population ecology~// Ecological Modelling.
+\newblock 1999.
+\newblock Т. 115, {№}~2.
+\newblock {С.}~191 -- 198. URL:
+  http://www.sciencedirect.com/science/article/pii/S0304380098001926.{}
 
 \bibitem{levin74}
-Simon~A. Levin.
-\newblock Dispersion and population interactions.
-\newblock {\em The American Naturalist}, 108(960):207--228, 1974.
+\selectlanguageifdefined{russian}
+Levin~Simon~A. Dispersion and Population Interactions~// The American
+  Naturalist.
+\newblock 1974.
+\newblock Т. 108, {№}~960.
+\newblock {С.}~207--228. URL:  http://www.jstor.org/stable/2459851.{}
 
 \bibitem{levin76}
-Simon~A. Levin.
-\newblock Population dynamic models in heterogeneous environments.
-\newblock {\em Annual Review of Ecology and Systematics}, 7:287--310, 1976.
+\selectlanguageifdefined{russian}
+Levin~Simon~A. Population Dynamic Models in Heterogeneous Environments~//
+  Annual Review of Ecology and Systematics.
+\newblock 1976.
+\newblock Т.~7.
+\newblock {С.}~287--310. URL:  http://www.jstor.org/stable/2096869.{}
 
 \bibitem{hols}
-Kent~E. Holsinger and Jonathan Roughgarden.
-\newblock A model for the dynamics of an annual plant population.
-\newblock {\em Theoretical Population Biology}, 28(3):288 -- 313, 1985.
+\selectlanguageifdefined{russian}
+Holsinger~Kent~E., Roughgarden~Jonathan. A model for the dynamics of an annual
+  plant population~// Theoretical Population Biology.
+\newblock 1985.
+\newblock Т.~28, {№}~3.
+\newblock {С.}~288 -- 313. URL:
+  http://www.sciencedirect.com/science/article/pii/0040580985900310.{}
 
 \bibitem{pacsil}
-Stephen~W. Pacala.
-\newblock Neighborhood models of plant population dynamics. 4. single-species
-  and multispecies models of annuals with dormant seeds.
-\newblock {\em The American Naturalist}, 128(6):859--878, 1986.
+\selectlanguageifdefined{russian}
+Pacala~Stephen~W. Neighborhood Models of Plant Population Dynamics. 4.
+  Single-Species and Multispecies Models of Annuals with Dormant Seeds~// The
+  American Naturalist.
+\newblock 1986.
+\newblock Т. 128, {№}~6.
+\newblock {С.}~859--878. URL:  http://www.jstor.org/stable/2461768.{}
 
 \bibitem{wein}
-Jacob Weiner.
-\newblock A neighborhood model of annual-plant interference.
-\newblock {\em Ecology}, 63(5):1237--1241, 1982.
+\selectlanguageifdefined{russian}
+Weiner~Jacob. A Neighborhood Model of Annual-Plant Interference~// Ecology.
+\newblock 1982.
+\newblock Т.~63, {№}~5.
+\newblock {С.}~1237--1241. URL:  http://www.jstor.org/stable/1938849.{}
 
 \bibitem{weinc}
-Jacob Weiner and Paul~T. Conte.
-\newblock Dispersal and neighborhood effects in an annual plant competition
-  model.
-\newblock {\em Ecological Modelling}, 13(3):131 -- 147, 1981.
+\selectlanguageifdefined{russian}
+Weiner~Jacob, Conte~Paul~T. Dispersal and neighborhood effects in an annual
+  plant competition model~// Ecological Modelling.
+\newblock 1981.
+\newblock Т.~13, {№}~3.
+\newblock {С.}~131 -- 147. URL:
+  http://www.sciencedirect.com/science/article/pii/030438008190048X.{}
 
 \bibitem{HOGEWEG}
-P.~Hogeweg.
-\newblock Cellular automata as a paradigm for ecological modeling.
-\newblock {\em Applied Mathematics and Computation}, 27(1):81 -- 100, 1988.
+\selectlanguageifdefined{russian}
+Hogeweg~P. Cellular automata as a paradigm for ecological modeling~// Applied
+  Mathematics and Computation.
+\newblock 1988.
+\newblock Т.~27, {№}~1.
+\newblock {С.}~81 -- 100. URL:
+  http://www.sciencedirect.com/science/article/pii/0096300388901002.{}
 
 \bibitem{velazquez}
-Jorge Velázquez, Juan~P. Garrahan, and Markus~P. Eichhorn.
-\newblock Spatial complementarity and the coexistence of species.
-\newblock {\em PLOS ONE}, 9(12):1--20, 12 2014.
+\selectlanguageifdefined{russian}
+Velázquez~Jorge, Garrahan~Juan~P., Eichhorn~Markus~P. Spatial Complementarity
+  and the Coexistence of Species~// PLOS ONE.
+\newblock 2014.  12.
+\newblock Т.~9, {№}~12.
+\newblock {С.}~1--20. URL:  https://doi.org/10.1371/journal.pone.0114979.{}
 
 \bibitem{Plank2015}
-Michael~J. Plank and Richard Law.
-\newblock Spatial point processes and moment dynamics in the life sciences: A
-  parsimonious derivation and some extensions.
-\newblock {\em Bulletin of Mathematical Biology}, 77(4):586--613, 2015.
+\selectlanguageifdefined{russian}
+Plank~Michael~J., Law~Richard. Spatial Point Processes and Moment Dynamics in
+  the Life Sciences: A Parsimonious Derivation and Some Extensions~// Bulletin
+  of Mathematical Biology.
+\newblock 2015.
+\newblock Т.~77, {№}~4.
+\newblock {С.}~586--613. URL:  http://dx.doi.org/10.1007/s11538-014-0018-8.{}
 
 \bibitem{DURRETT1994363}
-R.~Durrett and S.~Levin.
-\newblock The importance of being discrete (and spatial).
-\newblock {\em Theoretical Population Biology}, 46(3):363 -- 394, 1994.
+\selectlanguageifdefined{russian}
+Durrett~R., Levin~S. The Importance of Being Discrete (and Spatial)~//
+  Theoretical Population Biology.
+\newblock 1994.
+\newblock Т.~46, {№}~3.
+\newblock {С.}~363 -- 394. URL:
+  http://www.sciencedirect.com/science/article/pii/S004058098471032X.{}
 
 \bibitem{YOUNG}
-Roberts A. J. \& Stuhne~G. Young, W.~R.
-\newblock {\em Nature}, (412):328 -- 331, 2001.
+\selectlanguageifdefined{russian}
+Young~W.~R.~Roberts A. J. \& Stuhne~G.~// Nature.
+\newblock 2001.
+\newblock {№}~412.
+\newblock {С.}~328 -- 331.{}
 
 \bibitem{FILIPE2001603}
-J.A.N. Filipe and G.J. Gibson.
-\newblock Comparing approximations to spatio-temporal models for epidemics with
-  local spread.
-\newblock {\em Bulletin of Mathematical Biology}, 63(4):603 -- 624, 2001.
+\selectlanguageifdefined{russian}
+Filipe~J.A.N., Gibson~G.J. Comparing Approximations to Spatio-temporal Models
+  for Epidemics with Local Spread~// Bulletin of Mathematical Biology.
+\newblock 2001.
+\newblock Т.~63, {№}~4.
+\newblock {С.}~603 -- 624. URL:
+  http://www.sciencedirect.com/science/article/pii/S0092824001902344.{}
 
 \bibitem{Etienne2004105}
-Rampal~S. Etienne, Cajo~J.F. ter Braak, and Claire~C. Vos.
-\newblock 5 - application of stochastic patch occupancy models to real
-  metapopulations.
-\newblock In Ilkka Hanski and Oscar~E. Gaggiotti, editors, {\em Ecology,
-  Genetics and Evolution of Metapopulations}, pages 105 -- 132. Academic Press,
-  Burlington, 2004.
+\selectlanguageifdefined{russian}
+Etienne~Rampal~S., ter Braak~Cajo~J.F., Vos~Claire~C. 5 - Application of
+  Stochastic Patch Occupancy Models to Real Metapopulations~// Ecology,
+  Genetics and Evolution of Metapopulations~/ {под ред. }Ilkka~Hanski,
+  Oscar~E.~Gaggiotti.
+\newblock Burlington: Academic Press, 2004.
+\newblock {С.}~105 -- 132. URL:
+  http://www.sciencedirect.com/science/article/pii/B9780123234483500076.{}
 
 \bibitem{metz}
-J.~A. Metz and M.~Gyllenberg.
-\newblock How should we define fitness in structured metapopulation models?
-  including an application to the calculation of evolutionarily stable
-  dispersal strategies.
-\newblock {\em Proc Biol Sci}, (268):499 -- 508, 2001.
+\selectlanguageifdefined{russian}
+Metz~J.~A., Gyllenberg~M. How should we define fitness in structured
+  metapopulation models? Including an application to the calculation of
+  evolutionarily stable dispersal strategies~// Proc Biol Sci.
+\newblock 2001.
+\newblock {№}~268.
+\newblock {С.}~499 -- 508.{}
 
 \bibitem{ROUS}
-F.~Rousset.
-\newblock {\em Genetic Structure and Selection in Subdivided Populations
-  (MPB-40)}.
-\newblock Princeton University Press, Princeton, 2013.
+\selectlanguageifdefined{russian}
+Rousset~F. Genetic Structure and Selection in Subdivided Populations (MPB-40).
+\newblock Princeton: Princeton University Press, 2013.{}
 
 \bibitem{CADET}
-Claire Cadet, Régis Ferrière, {Johan A J} Metz, and Minus {Van Baalen}.
-\newblock The evolution of dispersal under demographic stochasticity.
-\newblock {\em American Naturalist}, 162(4):427--441, 10 2003.
+\selectlanguageifdefined{russian}
+The Evolution of Dispersal under Demographic Stochasticity~/ Claire~Cadet,
+  Régis~Ferrière, {Johan A J}~Metz {[и~др.]}~// American Naturalist.
+\newblock 2003.  10.
+\newblock Т. 162, {№}~4.
+\newblock {С.}~427--441.{}
 
 \bibitem{RAND}
-D.~A. Rand and H.~B. Wilson.
-\newblock Using spatio-temporal chaos and intermediate-scale determinism to
-  quantify spatially extended ecosystems.
-\newblock {\em Proceedings: Biological Sciences}, 259(1355):111--117, 1995.
+\selectlanguageifdefined{russian}
+Rand~D.~A., Wilson~H.~B. Using Spatio-Temporal Chaos and Intermediate-Scale
+  Determinism to Quantify Spatially Extended Ecosystems~// Proceedings:
+  Biological Sciences.
+\newblock 1995.
+\newblock Т. 259, {№}~1355.
+\newblock {С.}~111--117. URL:  http://www.jstor.org/stable/50143.{}
 
 \bibitem{WEINS1993}
-John~A. Wiens, Nils~Chr. Stenseth, Beatrice~Van Horne, and Rolf~Anker Ims.
-\newblock Ecological mechanisms and landscape ecology.
-\newblock {\em Oikos}, 66(3):369--380, 1993.
+\selectlanguageifdefined{russian}
+Ecological Mechanisms and Landscape Ecology~/ John~A.~Wiens,
+  Nils~Chr.~Stenseth, Beatrice~Van~Horne {[и~др.]}~// Oikos.
+\newblock 1993.
+\newblock Т.~66, {№}~3.
+\newblock {С.}~369--380. URL:  http://www.jstor.org/stable/3544931.{}
 
 \bibitem{Hastings1994}
-Alan Hastings.
-\newblock {\em Conservation and Spatial Structure: Theoretical Approaches},
-  pages 494--503.
-\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 1994.
+\selectlanguageifdefined{russian}
+Hastings~Alan. Conservation and Spatial Structure: Theoretical Approaches~//
+  Frontiers in Mathematical Biology~/ {под ред. }Simon~A.~Levin.
+\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 1994.
+\newblock {С.}~494--503.{}
 
 \bibitem{Levin334}
-Simon~A. Levin, Bryan Grenfell, Alan Hastings, and Alan~S. Perelson.
-\newblock Mathematical and computational challenges in population biology and
-  ecosystems science.
-\newblock {\em Science}, 275(5298):334--343, 1997.
+\selectlanguageifdefined{russian}
+Mathematical and Computational Challenges in Population Biology and Ecosystems
+  Science~/ Simon~A.~Levin, Bryan~Grenfell, Alan~Hastings {[и~др.]}~//
+  Science.
+\newblock 1997.
+\newblock Т. 275, {№}~5298.
+\newblock {С.}~334--343. URL:
+  http://science.sciencemag.org/content/275/5298/334.{}
 
 \bibitem{law_dieckmann_2000}
-Richard Law and Ulf Dieckmann.
-\newblock {\em Moment Approximations of Individual-based Models}, page
-  252–270.
+\selectlanguageifdefined{russian}
+Law~Richard, Dieckmann~Ulf. Moment Approximations of Individual-based Models~//
+  The Geometry of Ecological Interactions: Simplifying Spatial Complexity~/
+  {под ред. }Ulf~Dieckmann, Richard~Law, Johan A.~J.Editors~Metz.
 \newblock Cambridge Studies in Adaptive Dynamics. Cambridge University Press,
   2000.
+\newblock {С.}~252–270.{}
 
 \bibitem{BOLKER1997179}
-Benjamin Bolker and Stephen~W Pacala.
-\newblock Using moment equations to understand stochastically driven spatial
-  pattern formation in ecological systems.
-\newblock {\em Theoretical Population Biology}, 52(3):179 -- 197, 1997.
+\selectlanguageifdefined{russian}
+Bolker~Benjamin, Pacala~Stephen~W. Using Moment Equations to Understand
+  Stochastically Driven Spatial Pattern Formation in Ecological Systems~//
+  Theoretical Population Biology.
+\newblock 1997.
+\newblock Т.~52, {№}~3.
+\newblock {С.}~179 -- 197. URL:
+  http://www.sciencedirect.com/science/article/pii/S0040580997913319.{}
 
 \bibitem{MATS}
-Ogita N. Sasaki~A. Matsuda, H. and Sato K.
-\newblock Statistical mechanics of population.
-\newblock {\em Progress in Theoretical Physics}, 88:1035 -- 1049, 1992.
+\selectlanguageifdefined{russian}
+Matsuda~H.~Ogita N. Sasaki~A., K.~Sato. Statistical mechanics of population~//
+  Progress in Theoretical Physics.
+\newblock 1992.
+\newblock Т.~88.
+\newblock {С.}~1035 -- 1049.{}
 
 \bibitem{RAND1999}
-D.~A. Rand.
-\newblock {\em Correlation Equations and Pair Approximations for Spatial
-  Ecologies}.
-\newblock Blackwell Publishing Ltd., 1999.
+\selectlanguageifdefined{russian}
+Rand~D.~A. Correlation Equations and Pair Approximations for Spatial
+  Ecologies~// Advanced Ecological Theory: Principles and Applications~/
+  {под ред. }J.~McGlade.
+\newblock Blackwell Publishing Ltd., 1999.{}
 
 \bibitem{baalen_2000}
-Minus~van Baalen.
-\newblock {\em Pair Approximations for Different Spatial Geometries}, page
-  359–387.
+\selectlanguageifdefined{russian}
+Baalen~Minus~van. Pair Approximations for Different Spatial Geometries~// The
+  Geometry of Ecological Interactions: Simplifying Spatial Complexity~/ {под
+  ред. }Ulf~Dieckmann, Richard~Law, Johan A.~J.Editors~Metz.
 \newblock Cambridge Studies in Adaptive Dynamics. Cambridge University Press,
   2000.
+\newblock {С.}~359–387.{}
 
 \bibitem{Filipe200315}
-J.A.N. Filipe and M.M. Maule.
-\newblock Analytical methods for predicting the behaviour of population models
-  with general spatial interactions.
-\newblock {\em Mathematical Biosciences}, 183(1):15 -- 35, 2003.
+\selectlanguageifdefined{russian}
+Filipe~J.A.N., Maule~M.M. Analytical methods for predicting the behaviour of
+  population models with general spatial interactions~// Mathematical
+  Biosciences.
+\newblock 2003.
+\newblock Т. 183, {№}~1.
+\newblock {С.}~15 -- 35. URL:
+  http://www.sciencedirect.com/science/article/pii/S0025556402002249.{}
 
 \bibitem{law_2003}
-Richard Law, David~J. Murrell, and Ulf Dieckmann.
-\newblock Population growth in space and time: Spatial logistic equations.
-\newblock {\em Ecology}, 84(1):252--262, 2003.
+\selectlanguageifdefined{russian}
+Law~Richard, Murrell~David~J., Dieckmann~Ulf. Population Growth in Space and
+  Time: Spatial Logistic Equations~// Ecology.
+\newblock 2003.
+\newblock Т.~84, {№}~1.
+\newblock {С.}~252--262. URL:  http://www.jstor.org/stable/3108013.{}
 
 \bibitem{MURRELL}
-David~J. Murrell and Richard Law.
-\newblock Heteromyopia and the spatial coexistence of similar competitors.
-\newblock {\em Ecology Letters}, 6(1):48--59, 2003.
+\selectlanguageifdefined{russian}
+Murrell~David~J., Law~Richard. Heteromyopia and the spatial coexistence of
+  similar competitors~// Ecology Letters.
+\newblock 2003.
+\newblock Т.~6, {№}~1.
+\newblock {С.}~48--59. URL:
+  http://dx.doi.org/10.1046/j.1461-0248.2003.00397.x.{}
 
 \bibitem{Pawar2012a}
-Samraat Pawar and Anthony~I. Dell.
-\newblock {Dimensionality of consumer search space drives trophic interaction
-  strengths}.
-\newblock {\em Nature}, 486(7404):485--489, May 2012.
+\selectlanguageifdefined{russian}
+Pawar~Samraat, Dell~Anthony~I. {Dimensionality of consumer search space drives
+  trophic interaction strengths}~// Nature.
+\newblock 2012.  \bblmay{}.
+\newblock Т. 486, {№}~7404.
+\newblock {С.}~485--489. URL:
+  http://www.nature.com/doifinder/10.1038/nature11131.{}
+
+\bibitem{egor}
+\selectlanguageifdefined{russian}
+Галкин~Е.~Г. Пространственный подход в
+  популяционной динамике растительных
+  сообществ~// Выпускная квалификационная
+  работа.
+\newblock 2016.{}
+
+\bibitem{murlaw}
+\selectlanguageifdefined{russian}
+Murrell D.~J.~Dieckmann~U.~Law~R. On moment closures for population dynamics in
+  continuous space~// Journal of Theoretical Biology.
+\newblock 2004.
+\newblock Т. 229.
+\newblock {С.}~421--432.{}
+
+\bibitem{as1}
+\selectlanguageifdefined{russian}
+Савостьянов~А.~С. Исследование
+  интегро-дифференциальных уравнений,
+  возникающих в модели стационарных
+  сообществ~// Курсовая работа.
+\newblock 2015.{}
+
+\bibitem{as2}
+\selectlanguageifdefined{russian}
+Савостьянов~А.~С. Исследование двухвидовой
+  модели популяции стационарных
+  сообществ~// Курсовая работа.
+\newblock 2016.{}
+
+\bibitem{nik}
+\selectlanguageifdefined{russian}
+Давыдов~А.А.~Данченко~В.И.~Никитин~А.А. Об
+  интегральном уравнении для стационарных
+  распределений биологических сообществ.
+\newblock 2009.
+\newblock Т.~3.
+\newblock {С.}~15 -- 29.{}
+
+\bibitem{Press1996}
+\selectlanguageifdefined{russian}
+{Numerical Recipes in Fortran 77: the Art of Scientific Computing. Second
+  Edition}~/ William~H.~Press, Saul~a.~Teukolsky, William~T.~Vetterling
+  {[и~др.]}.
+\newblock 1996.
+\newblock Т.~1.{}
+
+\bibitem{Baddour:09}
+\selectlanguageifdefined{russian}
+Baddour~Natalie. Operational and convolution properties of two-dimensional
+  Fourier transforms in polar coordinates~// J. Opt. Soc. Am. A.
+\newblock 2009.  Aug.
+\newblock Т.~26, {№}~8.
+\newblock {С.}~1767--1777. URL:
+  http://josaa.osa.org/abstract.cfm?URI=josaa-26-8-1767.{}
+
+\bibitem{Baddour:10}
+\selectlanguageifdefined{russian}
+Baddour~Natalie. Operational and convolution properties of three-dimensional
+  Fourier transforms in spherical polar coordinates~// J. Opt. Soc. Am. A.
+\newblock 2010.  Oct.
+\newblock Т.~27, {№}~10.
+\newblock {С.}~2144--2155. URL:
+  http://josaa.osa.org/abstract.cfm?URI=josaa-27-10-2144.{}
 
 \end{thebibliography}

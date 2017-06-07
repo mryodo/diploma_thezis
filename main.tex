@@ -11,11 +11,24 @@
 %\graphicspath{/images}
 \usepackage{float}
 \usepackage{caption}
-\usepackage{subcaption}
+\usepackage[list=true,listformat=simple]{subcaption}
 
+%\usepackage{subfigure}
+%\setcounter{lofdepth}{3}  %\replace depth number with an integer number
 
 %\usepackage[sorting=none]{biblatex}
-
+\def\bbljan{Jan.}
+\def\bblfeb{Feb.}
+\def\bblmar{Mar.}
+\def\bblapr{Apr.}
+\def\bblmay{May}
+\def\bbljun{Jun.}
+\def\bbljul{Jul.}
+\def\bblaug{Aug.}
+\def\bblsep{Sep.}
+\def\bbloct{Oct.}
+\def\bblnov{Nov.}
+\def\bbldec{Dec.}
 
 \usepackage{titlesec}
 \titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter.}{20pt}{\huge\bfseries}
@@ -24,6 +37,12 @@
 %\usepackage{mathpazo}
 %\usepackage{euler}
 \usepackage{iwona}
+
+\usepackage[resetlabels,labeled]{multibib}
+\newcites{S}{Авторские публикации по теме работы}
+
+\usepackage{tocloft}
+\setlength{\cftbeforechapskip}{0.8em}
 
 \allowdisplaybreaks
 %\setacknowledgementstitle{Благодарности}

@@ -1,0 +1,72 @@
+\documentclass[hyperpdf, nobind, oneside, 16pt]{hepthesis}
+%% For Cambridge hard-bound version (must be one-sided)
+%\documentclass[hyperpdf,oneside]{hepthesis}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{graphicx}
+%\graphicspath{/images}
+\usepackage{float}
+\usepackage{caption}
+\usepackage[list=true,listformat=simple]{subcaption}
+
+\linespread{1.5}
+
+%\usepackage{subfigure}
+%\setcounter{lofdepth}{3}  %\replace depth number with an integer number
+
+%\usepackage[sorting=none]{biblatex}
+\def\bbljan{Jan.}
+\def\bblfeb{Feb.}
+\def\bblmar{Mar.}
+\def\bblapr{Apr.}
+\def\bblmay{May}
+\def\bbljun{Jun.}
+\def\bbljul{Jul.}
+\def\bblaug{Aug.}
+\def\bblsep{Sep.}
+\def\bbloct{Oct.}
+\def\bblnov{Nov.}
+\def\bbldec{Dec.}
+
+\usepackage{titlesec}
+\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter.}{20pt}{\huge\bfseries}
+%% Load special font packages here if you wish
+%\usepackage{lmodern}
+%\usepackage{mathpazo}
+%\usepackage{euler}
+\usepackage{iwona}
+
+\usepackage[resetlabels,labeled]{multibib}
+\newcites{S}{Авторские публикации по теме работы}
+
+\usepackage{tocloft}
+\setlength{\cftbeforechapskip}{0.8em}
+
+\allowdisplaybreaks
+%\setacknowledgementstitle{Благодарности}
+
+\title{
+\textcyrillic{Механизмы сосуществования стационарных биологических сообществ в пространствах разных размерностей}}
+\author{Антон Сергеевич Савостьянов}
+
+
+\begin{document}
+
+\thispagestyle{empty}
+\section*{Аннотация}
+
+В работе рассматривается двухвидовая  модель самоструктурирующихся стационарных биологических сообществ, предложенная У. Дикманом и Р. Лоу, учитывающая пространственную неоднородность сообщества. Разработан численный метод для изучения системы интегро-дифференциальных уравнений, описывающей положение равновесия в модели; предложены математические эвристики для численного метода, использущие преобразование Ханкеля в двумерном случае и задачу Лапласа и присоединенные полиномы Лежандра в трехмерном случае, позволяющие существенное ускорить метод; найдены нетривиальные стационарные точки; исследованы ограничения на пространство параметров модели, приводящие к подобным стационарным точкам. Полученный метод применен к ряду общеизвестных биологических сценариев.
+
+
+\newpage
+
+\thispagestyle{empty}
+\section*{Annotation}
+
+This paper studies two-species model of self-structuring stationary biological communities, proposed by U. Dieckmann and R. Law, applicable for spatially heterogeneous populations. The numerical method applicable for solving the system of integro-differential equations that describes an equilibrium state of the system is developed; number of mathematical heuristics based on Hankel transform in two-dimensional case and Laplace problem with associated Legendre polynomials are proposed; nontrivial stationary points are found; boundaries on the model's parameter space leading to aforementioned nontrivial points are examined. Developed method applied for a number of widely-known biological scenarios.
+
+\end{document}
